@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DOM + JS</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <!-- BÀI TẬP 1 -->
+    <section>
+        <div class="homework-task my-5">
+            <div class="homework-task__title d-flex align-items-center">
+                <i class="fas fa-flask"></i>
+                <h3 class="font-weight-bold mb-0">BT1: Tính tiền lương nhân viên</h3>
+            </div>
+            <div class="homework-inputs">
+                <div class="d-flex justify-content-between">
+                    <div class="form-group w-50 mr-3">
+                        <label for="homework-1-input-1"></label>
+                        <input type="number" name="" id="homework-1-input-1"
+                               class="form-control" placeholder="Nhập lương một ngày">
+                    </div>
+                    <div class="form-group w-50 ml-3">
+                        <label for="homework-1-input-2"></label>
+                        <input type="number" name="" id="homework-1-input-2"
+                               class="form-control" placeholder="Số ngày làm">
+                    </div>
+                </div>
+                <button id="homework-1-submit-btn" class="w-100 btn btn-primary w-30">Tính lương
+                </button>
+            </div>
+            <div class="homework-output">
+                <i class="fas fa-arrow-right"></i>
+                <span id="homework-1-result"></span>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- BÀI TẬP 2 -->
+    <section>
+        <div class="homework-task my-5">
+            <div class="homework-task__title d-flex align-items-center">
+                <i class="fas fa-flask"></i>
+                <h3 class="font-weight-bold mb-0">BT2: Tính giá trị trung bình</h3>
+            </div>
+            <div class="homework-inputs">
+                <div class="d-flex justify-content-between text-center">
+                    <div class="form-group w-20 mx-2">
+                        <label for="homework-2-input-1"></label>
+                        <input type="text" name="" id="homework-2-input-1" class="form-control text-center"
+                               placeholder="Nhập số thứ 1">
+                    </div>
+                    <div class="form-group w-20 mx-2">
+                        <label for="homework-2-input-2"></label>
+                        <input type="text" name="" id="homework-2-input-2" class="form-control text-center"
+                               placeholder="Nhập số thứ 2">
+                    </div>
+                    <div class="form-group w-20 mx-2">
+                        <label for="homework-2-input-3"></label>
+                        <input type="text" name="" id="homework-2-input-3" class="form-control text-center"
+                               placeholder="Nhập số thứ 3">
+                    </div>
+                    <div class="form-group w-20 mx-2">
+                        <label for="homework-2-input-4"></label>
+                        <input type="text" name="" id="homework-2-input-4" class="form-control text-center"
+                               placeholder="Nhập số thứ 4">
+                    </div>
+                    <div class="form-group w-20 mx-2">
+                        <label for="homework-2-input-5"></label>
+                        <input type="text" name="" id="homework-2-input-5" class="form-control text-center"
+                               placeholder="Nhập số thứ 5">
+                    </div>
+                    <br>
+                </div>
+                <button id="homework-2-submit-btn" class="w-100 btn btn-primary w-30">Tính trung bình
+                </button>
+            </div>
+            <div class="homework-output">
+                <i class="fas fa-arrow-right"></i>
+                <span id="homework-2-result"></span>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- BAI TAP 3 -->
+    <section>
+        <div class="homework-task my-5">
+            <div class="homework-task__title d-flex align-items-center">
+                <i class="fas fa-flask"></i>
+                <h3 class="font-weight-bold mb-0">BT3: Quy đổi tiền </h3>
+            </div>
+            <div class="homework-inputs">
+                <div class="d-flex justify-content-between">
+                    <div class="form-group w-100">
+                        <label for="homework-3-input-1"></label>
+                        <input type="number" name="" id="homework-3-input-1" class="form-control"
+                               placeholder="Nhập số có 2 chữ số">
+                    </div>
+                </div>
+                <button id="homework-3-submit-btn" class="w-100 btn btn-primary w-30">Quy đổi tiền
+                </button>
+            </div>
+            <div class="homework-output my-5">
+                <i class="fas fa-arrow-right"></i>
+                <span id="homework-3-result"></span>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- BÀI TẬP 4 -->
+    <section>
+        <div class="homework-task my-5">
+            <div class="homework-task__title d-flex align-items-center">
+                <i class="fas fa-flask"></i>
+                <h3 class="font-weight-bold mb-0">BT4: Tính diện tích, chu vi hình chữ nhật</h3>
+            </div>
+            <div class="homework-inputs">
+                <div class="d-flex justify-content-between">
+                    <div class="form-group w-50 mr-3">
+                        <label for="homework-4-input-1"></label>
+                        <input type="number" name="" id="homework-4-input-1" class="form-control"
+                               placeholder="Nhập chiều dài">
+                    </div>
+                    <div class="form-group w-50 ml-3">
+                        <label for="homework-4-input-2"></label>
+                        <input type="number" name="" id="homework-4-input-2" class="form-control"
+                               placeholder="Nhập chiều rộng">
+                    </div>
+                </div>
+                <button id="homework-4-submit-btn" class="w-100 btn btn-primary w-30">Tính</button>
+            </div>
+            <div class="homework-output">
+                <i class="fas fa-arrow-right"></i>
+                <span id="homework-4-result"></span>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- BÀI TẬP 5 -->
+    <section>
+        <div class="homework-task mb-5">
+            <div class="homework-task__title d-flex align-items-center">
+                <i class="fas fa-flask"></i>
+                <h3 class="font-weight-bold mb-0">BT5: Tính tổng 2 ký số</h3>
+            </div>
+            <div class="homework-inputs">
+                <div class="d-flex justify-content-between">
+                    <div class="form-group w-100">
+                        <label for="homework-5-input-1"></label>
+                        <input type="number" name="" id="homework-5-input-1" class="form-control"
+                               placeholder="Nhập số có 2 chữ số">
+                    </div>
+                </div>
+                <button id="homework-5-submit-btn" class="w-100 btn btn-primary w-30">Tính tổng
+                </button>
+            </div>
+            <div class="homework-output">
+                <i class="fas fa-arrow-right"></i>
+                <span id="homework-5-result"></span>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <script src="./js/homework-1.js"></script>
+    <script src="./js/homework-2.js"></script>
+    <script src="./js/homework-3.js"></script>
+    <script src="./js/homework-4.js"></script>
+    <script src="./js/homework-5.js"></script>
+</body>
+
+</html>
